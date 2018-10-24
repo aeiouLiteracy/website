@@ -60,15 +60,11 @@ border: 1px solid #bbb;
 }
 
 .logo {
-  margin: auto;
+  margin-left: 1em;
   display: block;
   max-width: 15%;
   max-height: 20%;
   padding-top: 10px;
-
-}
-
-.heading {
 
 }
 
@@ -90,4 +86,17 @@ border: 1px solid #bbb;
   min-height: 75%;
   max-width: 75%;
   min-width: 75%;
+}
+
+.inactive_dot {
+  border-radius: 50%;
+  background-color: #bbb;
+  height: 15px;
+  width: 15px;
+  display: inline-block;
+  align-items: center;
+}
+
+.slideShowDots {
+
 }
