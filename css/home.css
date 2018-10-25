@@ -35,34 +35,6 @@ body {
   height: 1.5em;
 }
 
-.navigationBar {
-  text-align: center;
-  background-color: #f8d0a7;
-}
-
-.navigationBar ul {
-  list-style: none;
-  display: flex;
-  justify-content: space-around;
-}
-
-.navigationBar li {
-background-color: #f8d0a7;
-border: 1px solid #bbb;
-}
-
-.navigationBar a {
-  text-decoration: none;
-}
-
-.navigationBar a:hover {
-  background-color: #f8e4a7;
-}
-
-.logo {
-
-}
-
 .logoContainer {
   display: flex;
   margin-left: 8em;
@@ -79,6 +51,41 @@ border: 1px solid #bbb;
   margin-left: 8em;
   margin-right: 8em;
 }
+
+.navigationBar {
+  background-color: #f8d0a7;
+}
+
+.navigationBar ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.navigationBar li {
+  background-color: #f8d0a7;
+  border: 1px solid #bbb;
+}
+
+.navigationBar li:hover {
+  background-color: #f8e4a7;
+}
+
+.navigationBar a {
+  text-decoration: none;
+}
+
+.navImage {
+  align-self: center;
+  width: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.navText {
+  text-align: center;
+}
+
 
 .slideShowElement img {
   margin: auto;
