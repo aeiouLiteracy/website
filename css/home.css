@@ -60,23 +60,25 @@ border: 1px solid #bbb;
 }
 
 .logo {
-  margin-left: 8em;
-  display: block;
-  max-width: 15%;
-  max-height: 20%;
-  padding-top: 10px;
 
 }
 
-.outerContainer {
-  background-color: #f8f8a7;
+.logoContainer {
+  display: flex;
+  margin-left: 8em;
+  padding-top: 10px;
+}
+
+.logoContainer img {
+  height: 10em;
+  width: 10em;
 }
 
 .innerContainer {
   background-color: #ffffff;
-  min-height: 100%;
   margin-left: 8em;
   margin-right: 8em;
+  min-width: 1170px;
 }
 
 .slideShowElement img {
