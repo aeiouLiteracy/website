@@ -86,7 +86,6 @@ body {
   text-align: center;
 }
 
-
 .slideShowElement img {
   margin: auto;
   display: block;
@@ -100,14 +99,16 @@ body {
   cursor: pointer;
 }
 
-.inactive_dot {
+.slideShowDots {
+  text-align: center;
+}
+
+
+
+.dot {
   border-radius: 50%;
   background-color: #bbb;
   height: 15px;
   width: 15px;
   display: inline-block;
-}
-
-.slideShowDots {
-  text-align: center;
 }
