@@ -96,15 +96,18 @@ body {
   min-width: 75%;
 }
 
+.next {
+  cursor: pointer;
+}
+
 .inactive_dot {
   border-radius: 50%;
   background-color: #bbb;
   height: 15px;
   width: 15px;
   display: inline-block;
-  align-items: center;
 }
 
 .slideShowDots {
-
+  text-align: center;
 }
