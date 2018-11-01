@@ -47,12 +47,16 @@
               </a>
             </li>
             <li>
-              <a href="./media">
-                <figure>
+              <div class="dropDown">
+                <figure onClick="dropDownToggle()" class="figureButton">
                   <img src="./pictures/navIcons/video-camera.png" class="navImage" />
                   <figcaption class="navText">Media</figcaption>
+                  <div id="dropDownLinks" class="dropDownContent">
+                    <a href="">Pictures</a>
+                    <a href="">Videos</a>
+                  </div>
                 </figure>
-              </a>
+              </div>
             </li>
             <li>
               <a href="./support">
@@ -109,7 +113,7 @@
           <figure class="slideShowElement">
             <img src="./pictures/KidsWithTechnology3.jpg" />
           </figure>
-          
+
           <div class="slideShowDots">
             <span class="dot" onclick="changeSlideIndex(0)"></span>
             <span class="dot" onclick="changeSlideIndex(1)"></span>
@@ -142,6 +146,7 @@
           </p>
         </section>
       </div>
+      <img src="./pictures/cartoons/Cartoon0.png" class="bottomBlocks"/>
     </div>
   </body>
 </html>

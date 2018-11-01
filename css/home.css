@@ -50,6 +50,11 @@ body {
   background-color: #ffffff;
   margin-left: 8em;
   margin-right: 8em;
+  border-image-source: url(../pictures/cartoons/KidsWaingLeft.png);
+  border-image-slice: 20;
+  border-image-width: 20;
+  border-image-outset: 1;
+  border-image-repeat: round;
 }
 
 .navigationBar {
@@ -90,10 +95,7 @@ body {
 .slideShowElement img {
   margin: auto;
   display: block;
-  max-height: 75%;
-  min-height: 75%;
-  max-width: 75%;
-  min-width: 75%;
+  max-width: 50%;
 }
 
 .slideShowDots {
@@ -107,4 +109,29 @@ body {
   height: 15px;
   width: 15px;
   display: inline-block;
+}
+
+.bottomBlocks {
+  margin: auto;
+  display: block;
+}
+
+.dropDown {
+  cursor: pointer;
+}
+
+.dropDownContent {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+}
+
+.dropDownContent a {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.show {
+  display: block;
 }
